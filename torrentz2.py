@@ -17,6 +17,7 @@ class torrentz2(object):
             'all': 0}
     
     def __init__(self):
+        """class initialization"""
 
     def download_torrent(self, info):
         print(download_file(info))
